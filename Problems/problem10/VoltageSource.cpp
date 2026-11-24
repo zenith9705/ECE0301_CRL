@@ -3,5 +3,6 @@
 double VoltageSource::get_voltage() const
 {
   // TODO
-  return 0.0;
+  double value = this->get_value();
+  return value;
 }

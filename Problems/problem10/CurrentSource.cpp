@@ -3,5 +3,6 @@
 double CurrentSource::get_current() const
 {
   // TODO
-  return 0.0;
+  double value = this->get_value();
+  return value;
 }
